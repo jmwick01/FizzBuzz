@@ -76,6 +76,4 @@ function displayData(fbArray) {
         
         tableBody.appendChild(tableRow);
     }
-
-    //add all the rows to the table
 }
