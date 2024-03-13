@@ -65,10 +65,10 @@
                         <h5>Enter Values</h5>
                         <form class="row gy-2 gx-3">
                             <div class="col">
-                                <input type="number" id="startValue" class="form-control" placeholder="Start Value" value=0 aria-label="Start Value">
+                                <input type="number" id="fizzValue" class="form-control" placeholder="Fizz Value" value=3 aria-label="Fizz Value">
                             </div>
                             <div class="col">
-                                <input type="number" id="endValue" class="form-control" placeholder="End Value" value=100 aria-label="End Value">
+                                <input type="number" id="buzzValue" class="form-control" placeholder="Buzz Value" value=5 aria-label="Buzz Value">
                             </div>
                             <div class="col-12 d-flex justify-content-end">
                                 <button type="button" id="btnSubmit" class="btn btn-dark btn-lg">Buzz It</button>
@@ -111,5 +111,8 @@
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
     </script>
     <script src="/js/site.js"></script>
+    <script>
+        document.getElementById("btnSubmit").addEventListener("click", getValues);
+    </script>
 </body>
 </html>
